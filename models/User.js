@@ -10,6 +10,6 @@ const userSchema = new Schema({
   password: {
     type: String,
     required: true
-  },
+  }
 });
- module.expotrs = mongoose.model('users', userSchema);
+ module.exports = mongoose.model('users', userSchema);
